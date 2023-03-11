@@ -1,3 +1,9 @@
+function toggleClass() {
+    const body = document.querySelector("body");
+    body.classList.toggle("dark");
+}
+
+
 /* Clock niddles rotate from = 0-360deg
 Total seconds in a minute / total minutes in a hour = 60
 360/60 = 6deg */

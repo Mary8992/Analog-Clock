@@ -183,8 +183,8 @@ body.dark .sc::before {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    background: #d1dae3;
-    color: #d1dae3;
+    background: #091921;
+    color: #091921;
     font-family: consolas;
     cursor: pointer;
     display: flex;
@@ -196,4 +196,14 @@ body.dark .sc::before {
     content: 'Dark Mode';
     white-space: nowrap;
     left: 25px;
+}
+
+body.dark .toggleClass {
+    background-color: #d1dae3;
+    color: #d1dae3;
+}
+
+body.dark .toggleClass::before {
+    content: 'Light Mode';
+    white-space: nowrap;
 }
